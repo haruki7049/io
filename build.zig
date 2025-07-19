@@ -17,7 +17,7 @@ pub fn build(b: *std.Build) void {
         .target = target,
         .optimize = optimize,
     });
-    exe_mod.addImport("io_lib", lib_mod);
+    exe_mod.addImport("io", lib_mod);
 
     // Library
     const lib = b.addLibrary(.{

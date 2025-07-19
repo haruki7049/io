@@ -3,6 +3,6 @@
 //! is to delete this file and start with root.zig instead.
 
 const std = @import("std");
-const lib = @import("io_lib");
+const io = @import("io");
 
 pub fn main() !void {}
